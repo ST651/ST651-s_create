@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+
+body{
+    background-color:#990000;
+    width:100%;
+}
+
+#header{
+    width:100%;
+    display:block;
+     margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#header img{
+    width:20%;
+    height:30%;
+    
+    
+   
+}
+
+#header_twitter{
+     margin:auto;
+    padding:auto;
+    text-align:center;
+    background-color:#FFFFFF;
+    width:50%;
+    font-size:30px;
+    height:120%;
+}
+
+#navi{
+    width:98%;
+    position:fixed;/*このプロパティでナビゲーションを固定する*/
+    top:200px;/*上部に３０ｐｘ分の間をあける*/
+    z-index:2;
+    
+}
+#navi ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    display:flex;
+}
+#navi ul li{
+    width:20%;
+    text-align:center;
+    border-left:solid 2px;
+    border-color:#FFF;
+    
+}
+#navi ul li a{
+    display:block;
+    height:30px;
+    margin:0;
+    padding:10px;
+    font-size:15px;
+    color:#FFF;
+    background-color:#663300;
+    
+}
+#front_cafe{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:120px;
+    display:block;
+    text-align:center;
+}
+#front_cafe img{
+    width:70%;
+    height:80%;
+}
+#menu_ber{
+    width:100%;
+    margin-top:80px;
+    margin-bottom:50px;
+}
+#menu_ber ul{
+    margin:auto;
+    width:75%;
+    padding:auto;
+    list-style:none;
+    display:flex;
+    flex-wrap:wrap;
+}
+#menu_ber li{
+    display:flex;
+    width:50%;
+    margin:auto;
+    flex-wrap:wrap;
+     text-align:center;
+   
+}
+#menu_ber li a{
+    margin:0 ;
+    width:80%;
+    height:40px;
+    padding:0;
+    font-size:30px;
+    color:#FFF;
+    background-color:#FF0066;
+      border:solid 6px;
+      border-color:#993333;
+}
+
+#question_heder{
+    margin:auto;
+    padding:auto;
+    text-align:center;
+    background-color:#FFFFFF;
+    width:50%;
+    font-size:20px;
+}
+#footer {
+    
+    margin:auto;
+    padding:auto;
+    width:100%;
+    display:flex;
+}
+
+#cafeinfo{
+    width:50%;
+    margin:auto;
+    text-align:center;
+}
+
+
+.footer_map{
+    
+    /*margin-right:30px;*/
+    /*margin-left:auto;*/
+    /*padding-right:50px;*/
+    margin:auto;
+    /*overflow:hidden;*/
+    width:50%;
+}
+.footer_map iframe{
+    width:70%;
+    /*height:105%;*/
+}
+#drink_menu {
+display:flex;
+margin:auto;
+padding:auto;
+width:95%;
+flex-direction:column;
+text-align:center;
+background-image:url("images/background_wood.jpg");
+}
+#drink_menu p{
+    color:#FFCC66;
+}
+.drink_coffee{
+    width:100%;
+    margin:auto;
+    padding:auto;
+    
+}
+.drink_coffee h2{
+    color:#FFFF99;
+}
+.drink_tea h2{
+    color:#FFFF99;
+}
+.drink_tea h3{
+    color:#FF6666;
+}
+.drink_milk h2{
+    color:#FFFF99;
+}
+.drink_milk h3{
+    color:#FF6666;
+}
+#food_menu{
+    display:flex;
+    margin:auto;
+    padding:auto;
+    width:95%;
+    flex-direction:column;
+    text-align:center;
+    background-image:url("images/background_wood.jpg");
+}
+#food_menu p{
+    color:#FFFF66;
+}
+
+.sweets_menu h2{
+    color:#FFFFCC;
+}
+.food_lunch_menu h2{
+    color:#FFFFCC;
+}
+.sweets_menu h4{
+    color:#FF6666;
+}
+.food_lunch_menu h4{
+    color:#FF6633;
+}
+.food_lunch_menu h5{
+    color:#FF6666;
+}
+#cafeinfo p{
+    color:#FFFF99;
+}
+#cafeinfo h2{
+    color:#FFFFCC;
+}
+.ivent iframe{
+    width:80%;
+    margin:auto;
+    top:150px;
+    position:relative;
+    
+}
+#twitter-timeline{
+    width:50%;
+    margin:auto;
+    position:relative;
+    top:150px;
+    z-index:1;/*このプロパティで重なりの順番を指定する 値の大きいほうが上に重なる*/
+}
+/*#twitter-footer{
+    width:100%;
+    height:20%;
+    border-bottom:ridge 10px;
+}*/
